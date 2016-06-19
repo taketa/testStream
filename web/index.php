@@ -7,6 +7,7 @@ function run($url){
 		if (strpos($i, 'kb/s') !== false) {
     array_push($testArr,$i);
 }
+print_r("expression");
 	}
 	print_r($testArr);
 	if ($testArr){
