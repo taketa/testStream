@@ -1,5 +1,5 @@
 <?php 
-require('../vendor/autoload.php');
+// require('../vendor/autoload.php');
 function run($url){
 	$testArr=[];
 	exec("timeout 20s ffprobe $url".' 2>&1',$output);
