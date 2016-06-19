@@ -8,6 +8,7 @@ function run($url){
     array_push($testArr,$i);
 }
 	}
+	print_r($testArr);
 	if ($testArr){
 		return "good";
 	}
